@@ -19,5 +19,3 @@ for i in range(len(place['result']['reviews'])):
 
 df = pd.DataFrame(reviews)
 print(df)
-
-print(reviews[1])
