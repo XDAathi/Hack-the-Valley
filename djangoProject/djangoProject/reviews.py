@@ -1,10 +1,11 @@
 import googlemaps
 import pandas as pd
-import config
+import os
+from dotenv import load_dotenv
 
-API_KEY = config.api_key
 
-gmaps = googlemaps.Client(API_KEY)
+load_dotenv()
+gmaps = googlemaps.Client(os.getenv('config_api_key'))
 placeName = "CN Tower"
 places_result = gmaps.places(placeName)
 placeID = places_result['results'][0]['place_id']
