@@ -1,5 +1,5 @@
 # Hack the Valley 9 | Hackathon Project
-![htv9 logo]()
+<img src="assets/htvlogo.jpeg" width="450" height="450"/>
 
 Hack The Valley 9 is a hackathon hosted at University of Toronto Scarborough.
 
