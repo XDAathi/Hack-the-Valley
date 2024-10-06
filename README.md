@@ -4,7 +4,7 @@
 Hack The Valley 9 is a hackathon hosted at University of Toronto Scarborough.
 
 # TripQuick
-![tripquick logo]()
+<img src="assets/tripquicklogo.jpg" width="300" height=300"/>
 
 _By: David, Aathi, Amaar, Mustafa_
 
