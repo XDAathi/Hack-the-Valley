@@ -1,7 +1,6 @@
 import time
 import googlemaps
 from geopy.geocoders import Nominatim
-from secrets import config_api_key as api_key
 import os
 from dotenv import load_dotenv
 
