@@ -1,0 +1,50 @@
+/* ScrollProgress.css */
+.progress-container {
+    position: fixed;
+    width: 100%;
+    height: 8px; /* Increase the thickness of the progress bar */
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background: rgba(255, 255, 255, 0.1); /* Light background for visibility */
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background-color: white; /* Set the progress bar color to white */
+    width: 0%;
+  }
+  
+  
+  /* Navbar styling */
+  .navbar {
+    position: fixed;
+    top: 5px; /* Push down to leave space for the progress bar */
+    left: 0;
+    width: 100%;
+    background-color: white; /* Navbar background color */
+    z-index: 1000; /* Ensure the navbar stays on top of other content */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.0); /* Optional: adds a shadow to the navbar */
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #3ba5b3; /* Ensure the background is consistent */
+  }
+  
+  .App {
+    margin: 0;
+    padding: 0;
+  }
+  
+  section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+  }
+  
+  
