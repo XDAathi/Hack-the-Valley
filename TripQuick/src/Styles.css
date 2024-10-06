@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0f6dd2;
+    color: #333;
+  }
+  
+  * {
+    font-family: "Plaster", sans-serif;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  .parallax {
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+  }
+  
+  .scroller {
+    display: flex;
+    flex-direction: row;
+    font-size: 4rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  
+  span {
+    display: block;
+    padding: 0 1rem;
+  }
+  
