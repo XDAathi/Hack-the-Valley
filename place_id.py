@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 place_list = []
 place_id_list = []
-address='Toronto' # placeholder
+address='Paris' # placeholder
 geolocator = Nominatim(user_agent="Your_Name") # ignore the user_agent. i found it online didnt feel like making an account. it just works lol
 location = geolocator.geocode(address) # name to address
 coordinates = str(location.latitude) +", " + str(location.longitude) # address to global coordinates
