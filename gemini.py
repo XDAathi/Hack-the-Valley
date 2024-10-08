@@ -6,7 +6,6 @@ load_dotenv()
 
 
 prefrence = "food" # do this for all 4 prefrences namely food, must sees, nature, entertainment
-key = os.getenv('gemini_key')
 
 genai.configure(api_key=key)
 model = genai.GenerativeModel("gemini-1.5-flash")
