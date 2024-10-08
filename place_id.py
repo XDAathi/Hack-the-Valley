@@ -15,7 +15,7 @@ coordinates = str(location.latitude) +", " + str(location.longitude) # address t
 
 gmaps = googlemaps.Client(os.getenv('config_api_key'))
 
-places_result = gmaps.places_nearby(location=coordinates, language='en', radius=40000, keyword = "attractions") # type=tourist returns best quality of results
+places_result = gmaps.places_nearby(location=coordinates, language='en', radius=4000, keywords = "attractions") # type=tourist returns best quality of results
 for x in range(3): # max limit of 60 results
     for place in places_result['results']:
         place_id = place["place_id"]
@@ -25,5 +25,4 @@ for x in range(3): # max limit of 60 results
     if x != 2:
         places_result = gmaps.places_nearby(page_token=places_result['next_page_token'])
 
-print(place_id_list)
 print(place_list)

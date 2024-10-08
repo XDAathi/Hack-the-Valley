@@ -19,4 +19,3 @@ for i in range(len(place['result']['reviews'])):
     reviews.append({'rating':rating,'text':text})
 
 df = pd.DataFrame(reviews)
-print(df)
